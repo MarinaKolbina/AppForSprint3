@@ -16,12 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Значение счетчика:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvH-jf-kaO">
-                                <rect key="frame" x="20" y="269" width="374" height="26"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1d-fc-D8T">
                                 <rect key="frame" x="115" y="536" width="184" height="180"/>
                                 <state key="normal" title="Button"/>
@@ -36,6 +30,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Значение счетчика:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBv-BN-DmI">
+                                <rect key="frame" x="78" y="226" width="258" height="62"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -43,14 +43,14 @@
                             <constraint firstItem="Hd0-C3-eRs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="285" id="0Gf-32-Hnm"/>
                             <constraint firstItem="G1d-fc-D8T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="6im-Iw-TAR"/>
                             <constraint firstItem="G1d-fc-D8T" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.220049" id="6lY-66-Hl7"/>
-                            <constraint firstItem="BvH-jf-kaO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="E27-yJ-Pb1"/>
+                            <constraint firstItem="gBv-BN-DmI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="GAD-t3-Z3P"/>
                             <constraint firstItem="Hd0-C3-eRs" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.0647922" id="IPE-lV-rcd"/>
                             <constraint firstItem="G1d-fc-D8T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="492" id="J0y-HA-UZ9"/>
                             <constraint firstItem="Hd0-C3-eRs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="VUX-Xf-e7x"/>
-                            <constraint firstItem="BvH-jf-kaO" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.466184" id="c3g-n5-RY1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gBv-BN-DmI" secondAttribute="trailing" constant="78" id="cq5-3z-aCq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hd0-C3-eRs" secondAttribute="trailing" constant="138" id="dxq-Gu-33K"/>
-                            <constraint firstItem="BvH-jf-kaO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="225" id="hss-As-0eu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BvH-jf-kaO" secondAttribute="trailing" constant="106" id="if4-ea-aGy"/>
+                            <constraint firstItem="gBv-BN-DmI" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.0757946" id="qXT-3J-1uW"/>
+                            <constraint firstItem="gBv-BN-DmI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="182" id="x4K-6m-10X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G1d-fc-D8T" secondAttribute="trailing" constant="115" id="xzi-yK-0FS"/>
                         </constraints>
                     </view>
